@@ -32,9 +32,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Ahmad Admin\n' 
+            + 'FN:Iqbal Admin\n' 
             + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=+60195042951:+60 195-042-951\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6281315995628:+62 813-1599-5628\n' 
             + 'END:VCARD' 
 prefix = '#'
 blocked = []          
@@ -239,7 +239,7 @@ client.on('group-participants-update', async (anu) => {
 			
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["60195042951@s.whatsapp.net"] 
+			const ownerNumber = ["6281315995628@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
