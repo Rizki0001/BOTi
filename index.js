@@ -32,7 +32,7 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Ahmad Admin\n' 
+            + 'FN:Ahmad Owner\n' 
             + 'ORG: Pengembang XBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=60195042951:+60 19-504-2951\n' 
             + 'END:VCARD' 
